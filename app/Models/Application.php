@@ -18,6 +18,8 @@ class Application extends Model
         'job_id',
         'full_name',
         'email',
+        'district',
+        'education_status',
         'cv',
 
     ];

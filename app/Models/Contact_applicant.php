@@ -12,7 +12,7 @@ class Contact_applicant extends Model
     //The primary key associated with the table
   protected $primaryKey = 'id';
 
-    //This array defines which columns can be filled using methods
+    //Array defines which columns can be filled using methods
    protected $fillable = [
     // Details of the applicant
         'full_name',

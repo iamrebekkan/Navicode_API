@@ -24,8 +24,6 @@ Route::get('/application/{id}', [ApplicationController::class,'show']);
 
 
 
-
-
 //contact details
 
    // Route to retrieve all applications

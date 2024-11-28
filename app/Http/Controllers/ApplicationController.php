@@ -30,7 +30,9 @@ class ApplicationController extends Controller
             'job_id' => 'required|integer',
             'full_name' => 'required|string|max:255',
             'email' => 'required|email|unique:applications,email',
-            'cv' => 'nullable|file|mimes:pdf',
+            'district' => 'required',
+            'education_status' =>  'required',
+            'cv' => 'required|file|mimes:pdf',
         ]);
 
         // Create a new application with validated data.
